@@ -2,12 +2,39 @@ html {
     scroll-behavior: smooth;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 
 .section{
   margin: 0px;
   padding: 0px;
   display: block;
   
+}
+
+@media (max-width: 768px){
+
+    .top{
+        justify-content: center;
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+    }
+
+    .category-nav2{
+        flex-wrap: wrap;
+        top: 100px;
+    }
+
+    .Title{
+        font-size: 28px;
+    }
+
+    .lok{
+        font-size: 40px;
+    }
 }
 
 .top{
@@ -114,13 +141,13 @@ body{
 }
 
 .utama{
-    height: 100vh;
+    height: 100%;
     padding-top: 60px;
     justify-content: center;
 }
 
 .infom{
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -128,7 +155,7 @@ body{
 }
 
 .lokasi{
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -142,7 +169,7 @@ body{
 iframe{
     border-radius: 20px;
     border: 2px solid #3b5f8a;
-    width: 100vh;
+    width: 100%;
 }
 
 .gambar{
@@ -153,7 +180,7 @@ iframe{
 }
 
 .gambar img{
-    width: 100vh;
+    width: 100%;
     height: 200px;
 
     border-radius: 20px;
