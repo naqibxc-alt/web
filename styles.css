@@ -740,16 +740,16 @@ body{
     background: linear-gradient(135deg, #3A1F0B, #8B4513, #FFB74D);
 }
 
-#kategoriA{
-    scroll-margin-top: 48px;
+.page1, .page2, .page3{
+    min-height: 100vh;
+    height: auto;
+    padding-bottom: 40px;
 }
 
-#kategoriB{
-    scroll-margin-top: 48px;
-}
-
+#kategoriA,
+#kategoriB,
 #kategoriC{
-    scroll-margin-top: 48px;
+    scroll-margin-top: 120px;
 }
 
 
@@ -836,46 +836,31 @@ footer {
     margin-top: 40px;
 }
 
-/* ===== RESPONSIVE SIMPLE (PC + PHONE) ===== */
 
-/* bagi semua element fleksibel */
-img, iframe {
-    max-width: 100%;
-    height: auto;
-}
+/* SIMPLE RESPONSIVE FIX */
 
-/* Tablet & Phone */
+/* Tablet + Phone */
 @media (max-width: 768px){
 
-    /* NAVBAR */
-    .top, .header, .atas{
-        flex-wrap: wrap;
-        justify-content: center;
-        height: auto;
-        padding: 10px;
-    }
-
-    /* BOX JADI STACK */
+    /* box jadi stack */
     .BoxA, .BoxB, .BoxC{
         flex-direction: column;
         align-items: center;
-        padding: 20px;
     }
 
-    /* BUANG WIDTH FIX */
+    /* buang fixed width */
     .LeftA, .RightA,
     .LeftB, .RightB,
     .LeftC, .RightC{
         width: 100%;
     }
 
-    /* SECTION JANGAN PAKSA TINGGI */
+    /* elak content terpotong */
     .page1, .page2, .page3{
         height: auto;
-        padding-bottom: 40px;
     }
 
-    /* TEXT SCALE */
+    /* kecilkan sikit text */
     .Title{
         font-size: 28px;
     }
@@ -886,16 +871,5 @@ img, iframe {
 
     .lok{
         font-size: 40px;
-    }
-
-    /* BANNER TAK PECAH */
-    .daftar{
-        flex-direction: column;
-    }
-
-    .banner1 img,
-    .banner2 img{
-        width: 100%;
-        height: 200px;
     }
 }
