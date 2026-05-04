@@ -724,32 +724,38 @@ body{
 /*------------------------------------------------------------------KATEGORI C--------------------------------------------------------------------*/
 .page1{
     padding-top: 60px;
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(135deg, #0B1F3A, #1E3A5F, #4FC3F7);
 }
 
 .page2{
     padding-top: 60px;
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(135deg, #0B3A2E, #1E5F4D, #4FD1A5);
 }
 
 .page3{
     padding-top: 60px;
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(135deg, #3A1F0B, #8B4513, #FFB74D);
 }
 
 .page1, .page2, .page3{
-    min-height: 100vh;
+    min-height: 100%;
     height: auto;
     padding-bottom: 40px;
 }
 
-#kategoriA,
-#kategoriB,
+#kategoriA{
+    scroll-margin-top: 48px;
+}
+
+#kategoriB{
+    scroll-margin-top: 48px;
+}
+
 #kategoriC{
-    scroll-margin-top: 120px;
+    scroll-margin-top: 48px;
 }
 
 
