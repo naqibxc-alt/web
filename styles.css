@@ -402,7 +402,7 @@ body{
 }
 
 .textA {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     line-height: 1.5;
     text-align: left;
@@ -410,7 +410,7 @@ body{
 }
 
 .listA {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     line-height: 1.5;
     text-align: justify;
@@ -418,7 +418,7 @@ body{
 }
 
 .syaratA {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: whitesmoke;
     padding: 10px;
@@ -467,7 +467,7 @@ body{
 }
 
 .hadiahA{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: whitesmoke;
     padding: 10px;
@@ -478,6 +478,11 @@ body{
     width: fit-content;
     background-color: rgba(5, 6, 83, 0.8);
 
+
+}
+
+.presentA, .presentB, .presentC {
+    list-style-type: none;
 }
 
 
@@ -522,7 +527,7 @@ body{
 }
 
 .textB {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     line-height: 1.5;
     text-align: left;
@@ -530,7 +535,7 @@ body{
 }
 
 .listB {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     line-height: 1.5;
     text-align: justify;
@@ -538,7 +543,7 @@ body{
 }
 
 .syaratB {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: whitesmoke;
     padding: 10px;
@@ -588,7 +593,7 @@ body{
 }
 
 .hadiahB{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: whitesmoke;
     padding: 10px;
@@ -642,7 +647,7 @@ body{
 }
 
 .textC {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     line-height: 1.5;
     text-align: left;
@@ -650,7 +655,7 @@ body{
 }
 
 .listC {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     line-height: 1.5;
     text-align: justify;
@@ -658,7 +663,7 @@ body{
 }
 
 .syaratC {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: whitesmoke;
     padding: 10px;
@@ -708,7 +713,7 @@ body{
 }
 
 .hadiahC{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: whitesmoke;
     padding: 10px;
@@ -841,3 +846,5 @@ footer {
     border-top: 1px solid rgba(79, 195, 247, 0.3);
     margin-top: 40px;
 }
+
+
