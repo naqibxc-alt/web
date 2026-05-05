@@ -14,28 +14,7 @@ html {
   
 }
 
-@media (max-width: 768px){
 
-    .top{
-        justify-content: center;
-        flex-wrap: wrap;
-        height: auto;
-        padding: 10px;
-    }
-
-    .category-nav2{
-        flex-wrap: wrap;
-        top: 100px;
-    }
-
-    .Title{
-        font-size: 28px;
-    }
-
-    .lok{
-        font-size: 40px;
-    }
-}
 
 .top{
     position: fixed;
